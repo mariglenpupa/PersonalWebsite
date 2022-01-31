@@ -16,3 +16,169 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+main {
+    min-height: 500px;
+    background-image: url("../pexels-josh-sorenson-1714208.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.ProfileBox {
+    text-align: center;
+    display: flex;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+    .ProfileBox img {
+        border: 3px solid rgba(255, 255, 255, 0.377);
+        border-radius: 50%;
+        height: 165px;
+        width: 170px;
+    }
+
+    .ProfileBox h1 {
+        color: white;
+        width: 100%;
+    }
+
+    .ProfileBox h3 {
+        margin-top: -10px;
+        color: white;
+        width: 100%;
+    }
+
+
+section {
+    height: 400px auto;
+    background-color: #1f2233;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+    section img {
+        margin-left: 2%;
+        width: 270px;
+        height: 350px;
+    }
+
+.AboutMe {
+    text-align: center;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+    .AboutMe h2 {
+        color: white;
+    }
+
+    .AboutMe hr {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        width: 70px;
+        color: white;
+        height: 3px;
+    }
+
+    .AboutMe p {
+        color: white;
+        font-size: 1.1rem;
+    }
+
+.AboutBox {
+    min-width: 380px;
+    width: 40%;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+    .AboutBox img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .AboutBox h2 {
+        margin-top: 10px;
+        font-size: 20px;
+        margin-left: 5px;
+        color: #92a1f1;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .AboutBox h3 {
+        margin-top: 10px;
+        font-size: 20px;
+        margin-left: 5px;
+        color: #c2c4ff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+
+.Box {
+    border: 2px solid rgba(255, 255, 255, 0.568);
+    border-radius: 20px;
+    min-width: 200px;
+    width: 22%;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+    .Box h2 {
+        margin-top: 7px;
+        font-style: oblique;
+        color: white;
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+    .Box p {
+        margin-top: -10px;
+        color: rgba(255, 255, 255, 0.685);
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    .Box img {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+    .Box a {
+        text-decoration: none;
+        color: white;
+    }
+
+        .Box a:hover {
+            color: white;
+        }
+
+footer {
+    min-width: 300px;
+}

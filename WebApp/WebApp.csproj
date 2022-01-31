@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebApp.Repository\WebApp.Repository.csproj" />
+  </ItemGroup>
+
 </Project>
